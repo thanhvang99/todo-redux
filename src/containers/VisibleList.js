@@ -1,5 +1,4 @@
 import { visibilityTypes,toggleTodo } from "./../actions/index";
-import React, { Component } from "react";
 import { connect } from "react-redux";
 import TodoList from "../components/TodoList";
 

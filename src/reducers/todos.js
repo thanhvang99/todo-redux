@@ -1,4 +1,4 @@
-let nextId = 0;
+let nextId = 1;
 
 const todos = (state=[],action) => {
     switch(action.type){

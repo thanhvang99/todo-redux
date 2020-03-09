@@ -5,16 +5,15 @@ import { visibilityTypes } from "../actions";
 class Header extends Component {
   render() {
     return (
-      <p>
-        Show{" "}
-        <FilterShowLink filter={visibilityTypes.SHOW_ALL}>All</FilterShowLink>
+      <div className="header">
+        <FilterShowLink filter={visibilityTypes.SHOW_ALL}>Show All</FilterShowLink>
         <FilterShowLink filter={visibilityTypes.SHOW_ACTIVE}>
-          Active
+            Show Active
         </FilterShowLink>
         <FilterShowLink filter={visibilityTypes.SHOW_COMPLETED}>
-          Completed
+            Show Completed
         </FilterShowLink>
-      </p>
+      </div>
     );
   }
 }
